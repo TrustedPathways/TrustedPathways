@@ -34,7 +34,7 @@ export default function HowItWorksSection() {
             How It Works
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-            Getting started is easy. just three simple steps.
+            Getting started is easy. Just three simple steps.
           </p>
         </div>
 
