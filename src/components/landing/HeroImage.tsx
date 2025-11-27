@@ -21,7 +21,7 @@ export default function HeroImage() {
                 </div>
                 <p className="font-semibold text-gray-900 text-sm">Trusted Support</p>
               </div>
-              <p className="text-xs text-gray-500">Support That Lets You Enjoy Life Again</p>
+              <p className="text-xs text-gray-500">Support That Lets You Enjoy Life Again.</p>
             </div>
           </div>
         </div>
