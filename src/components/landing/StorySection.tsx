@@ -47,7 +47,6 @@ export default function StorySection() {
             </div>
           </div>
         </div>
-      </
-    </section>
-  );
-}
+      </section>
+    );
+  }
