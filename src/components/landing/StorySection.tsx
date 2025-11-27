@@ -42,11 +42,10 @@ export default function StorySection() {
               </p>
             </div>
 
-            
-              </div>
-            </div>
+            {/* Removed experience and care stats */}
           </div>
         </div>
-      </section>
-    );
-  }
+      </div>
+    </section>
+  );
+}
