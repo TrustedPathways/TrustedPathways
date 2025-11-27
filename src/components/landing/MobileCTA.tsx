@@ -19,7 +19,7 @@ export default function MobileCTA() {
       element.scrollIntoView({ behavior: 'smooth' });
     }
   };
- 
+
   if (!isVisible) return null;
 
   return (
