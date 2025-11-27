@@ -31,7 +31,7 @@ export default function HeroSection() {
         </h1>
 
         <p className="text-lg sm:text-xl text-gray-600 leading-relaxed mb-10 max-w-3xl mx-auto">
-          Dedicated support coordination that helps you access services, manage your plan, and reduce stress — so you can live more independently.
+          Dedicated support coordination that helps you access services, manage your plan, and reduce stress. So you can live more independently.
         </p>
 
         <Button
