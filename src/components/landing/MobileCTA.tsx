@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Button } from "@/components/ui/button";
-import { ArrowDow } from "lucide-react";
+import { ArrowDown } from "lucide-react";
 
 export default function MobileCTA() {
   const [isVisible, setIsVisible] = useState(false);
