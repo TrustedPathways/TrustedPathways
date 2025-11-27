@@ -9,7 +9,7 @@ export default function StorySection() {
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-br from-[#4A1F7A]/10 to-purple-300/10 rounded-3xl transform -rotate-3" />
             <img
-              src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=800&h=700&fit=crop"
+              src="src/components/Images/RealSupport.webp"
               alt="Our caring team"
               className="relative rounded-3xl shadow-2xl shadow-purple-200/40 w-full h-[350px] sm:h-[450px] object-cover"
             />
