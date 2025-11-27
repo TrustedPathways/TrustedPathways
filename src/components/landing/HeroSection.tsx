@@ -42,24 +42,26 @@ export default function HeroSection() {
           Get Support Today
         </Button>
 
-        <div className="mt-16 flex flex-wrap justify-center gap-8 lg:gap-12">
-          <div className="flex items-center gap-3">
-            <div className="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center">
-              <CheckCircle2 className="w-6 h-6 text-[#4A1F7A]" />
+        <div className="mt-16 flex flex-col items-center gap-8">
+          <div className="flex flex-wrap justify-center gap-8 lg:gap-12">
+            <div className="flex items-center gap-3">
+              <div className="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center">
+                <CheckCircle2 className="w-6 h-6 text-[#4A1F7A]" />
+              </div>
+              <div className="text-left">
+                <p className="font-bold text-gray-900">100%</p>
+                <p className="text-sm text-gray-500">Client Satisfaction</p>
+              </div>
             </div>
-            <div className="text-left">
-              <p className="font-bold text-gray-900">100%</p>
-              <p className="text-sm text-gray-500">Client Satisfaction</p>
-            </div>
-          </div>
 
-          <div className="flex items-center gap-3">
-            <div className="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center">
-              <Award className="w-6 h-6 text-[#4A1F7A]" />
-            </div>
-            <div className="text-left">
-              <p className="font-bold text-gray-900">100%</p>
-              <p className="text-sm text-gray-500">Plan Navigation</p>
+            <div className="flex items-center gap-3">
+              <div className="w-12 h-12 rounded-full bg-purple-100 flex items-center justify-center">
+                <Award className="w-6 h-6 text-[#4A1F7A]" />
+              </div>
+              <div className="text-left">
+                <p className="font-bold text-gray-900">100%</p>
+                <p className="text-sm text-gray-500">Plan Navigation</p>
+              </div>
             </div>
           </div>
 
