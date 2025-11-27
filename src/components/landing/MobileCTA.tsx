@@ -28,9 +28,6 @@ export default function MobileCTA() {
         onClick={scrollToContact}
         className="w-full bg-[#4A1F7A] hover:bg-[#3D1A66] text-white rounded-full py-6 text-lg font-semibold shadow-lg"
       >
-        Get Support Today
-        <ArrowDown className="ml-2 w-5 h-5" />
-      </Button>
     </div>
   );
 }
