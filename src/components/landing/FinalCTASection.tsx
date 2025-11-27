@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button } from "@/components/ui/button";
-import { ArrowDow } from "lucide-react";
+import { ArrowDown } from "lucide-react";
 
 export default function FinalCTASection() {
   const scrollToContact = () => {
