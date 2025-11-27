@@ -9,7 +9,7 @@ export default function HeroImage() {
           <div className="relative">
             <div className="absolute inset-0 bg-gradient-to-br from-[#4A1F7A]/20 to-purple-300/20 rounded-3xl transform rotate-3" />
             <img
-              src="Public/Images/Angelikarealsupport.webp"
+              src="public/images/realsupportangelika.webp"
               alt="Supportive care"
               className="relative rounded-3xl shadow-2xl shadow-purple-200/50 w-full h-[400px] sm:h-[500px] lg:h-[580px] object-cover"
             />
