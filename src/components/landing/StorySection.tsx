@@ -38,15 +38,9 @@ export default function StorySection() {
                 After years of helping families navigate the complicated NDIS system, we built a service that puts people first.
               </p>
               <p className="font-medium text-[#4A1F7A]">
-  Your goals become our mission, and your independence becomes our priority.
-</p>
-</div>
-
-{/* stats block removed here */}
-
-</div>
+                Your goals become our mission, and your independence becomes our priority.
+              </p>
       </div>
     </section>
   );
 }
-
