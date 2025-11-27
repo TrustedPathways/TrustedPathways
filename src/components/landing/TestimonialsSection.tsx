@@ -3,7 +3,7 @@ import { Star, ChevronLeft, ChevronRight } from "lucide-react";
 
 export default function TestimonialsSection() {
   const scrollRef = useRef<HTMLDivElement>(null);
-  const scrollIntervalRef = useRef<number | null>(null);
+  const scrollIntervalRef = useRef<number | null>(null); 
 
   const testimonials = [
     {
