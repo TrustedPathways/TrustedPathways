@@ -21,7 +21,7 @@ export default function Footer() {
                 alt="Trusted Pathways Logo"
                 className="h-12 w-auto"
               />
-              <span className="font-semibold text-[#4A1F7A] text-xl">Trusted Pathways</span>
+              <span className="font-semibold text-purple-100 text-xl">Trusted Pathways</span>
             </div>
             <p className="text-gray-400 leading-relaxed mb-6">
               Dedicated NDIS support coordination that puts you first. Your goals become our mission.
