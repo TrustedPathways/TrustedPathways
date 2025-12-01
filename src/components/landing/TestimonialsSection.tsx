@@ -46,7 +46,7 @@ export default function TestimonialsSection() {
       const container = scrollRef.current;
       if (!container) return;
 
-      const scrollSpeed = 3;
+      const scrollSpeed = 5;
       container.scrollLeft += direction === 'left' ? -scrollSpeed : scrollSpeed;
 
       const cardWidth = container.scrollWidth / loopedTestimonials.length;
@@ -108,9 +108,27 @@ export default function TestimonialsSection() {
         </div>
 
         <div className="relative mt-10">
+          {/* 🔹 NEW: hide scrollbar but allow swipe */}
+          <style>
+            {`
+              #testimonials-scroll {
+                -ms-overflow-style: none;
+                scrollbar-width: none;
+              }
+              #testimonials-scroll::-webkit-scrollbar {
+                display: none;
+              }
+            `}
+          </style>
+
           <div
+            id="testimonials-scroll"
             ref={scrollRef}
-            className="flex overflow-hidden"
+            className="
+              flex 
+              overflow-x-auto overflow-y-hidden 
+              scroll-smooth
+            "
           >
             {loopedTestimonials.map((testimonial, index) => (
               <div
@@ -141,8 +159,9 @@ export default function TestimonialsSection() {
             ))}
           </div>
 
+          {/* 🔹 UPDATED: arrows hidden on mobile, same behaviour on desktop */}
           <button
-            className="absolute left-4 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white shadow-lg flex items-center justify-center text-[#4A1F7A] hover:bg-[#4A1F7A] hover:text-white transition-all duration-200 z-10"
+            className="hidden md:flex absolute left-4 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white shadow-lg items-center justify-center text-[#4A1F7A] hover:bg-[#4A1F7A] hover:text-white transition-all duration-200 z-10"
             onMouseEnter={() => startScroll('left')}
             onMouseLeave={stopScroll}
             aria-label="Scroll left"
@@ -150,7 +169,7 @@ export default function TestimonialsSection() {
             <ChevronLeft className="w-6 h-6" />
           </button>
           <button
-            className="absolute right-4 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white shadow-lg flex items-center justify-center text-[#4A1F7A] hover:bg-[#4A1F7A] hover:text-white transition-all duration-200 z-10"
+            className="hidden md:flex absolute right-4 top-1/2 -translate-y-1/2 w-12 h-12 rounded-full bg-white shadow-lg items-center justify-center text-[#4A1F7A] hover:bg-[#4A1F7A] hover:text-white transition-all duration-200 z-10"
             onMouseEnter={() => startScroll('right')}
             onMouseLeave={stopScroll}
             aria-label="Scroll right"
